@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aprendizagem</title>
+</head>
+<body>
+  
+  <ul>
+   
+    <li>biela</li>
+    <li>pistão</li>
+    <li>anel</li>
+
+    <!--
+      <li></li> foi o código usada do para criar uma lista com pontos.
+    -->
+    
+  </ul>
+  
+   <ol> 
+      <li>bloco</li>
+      <li>cabeçote</li>
+      <li>carter</li>
+   <!--o código <li></li> nessa  ocasião foi utilizado para fazer uma lista, ordenada com números.-->
+   
+    </ol>
+
+
+   <table>
+<tr> 
+<th>nomes</th>
+<th>telefones</th>
+<th>carros</th>
+</tr>
+<tr> 
+<td>marcos</td>
+<td>9995-0033</td>
+<td>gt 86</td>
+<!--<th></th> foi utilizado para organizar uma tabela, de forma correta.-->
+</tr>
+<tr> 
+<td>igor</td>
+<td>8854-7656</td>
+<td>supra</td>
+<tr> 
+<td>cassio</td>
+<td>9956-8432</td>
+<td>skyline</td>
+
+</tr>
+
+
+
+
+
+</table>
+<head>
+  <style>
+      table,th,td {
+        border: 1px solid black
+      }
+      table{
+        width: 100%;
+      
+      margin-bottom: 30px;
+      }
+  </style>
+
+</head>
+ 
+
+<head>
+  <style>
+      table,th,td {
+        border: 1px solid black
+      }
+      table{
+        width: 100%;
+      }
+  </style>
+<table> 
+<tr> 
+<th>nomes</th>
+<th colspan="2">telefones </th>
+<!--<th colspan="2"></th> foi utilizado para fazer as céluas se estendam por muitas colunas.-->
+</tr>
+<tr>  
+<td>mario</td>
+<td>8867-7643</td>
+<td>9987-5643</td>
+</tr>
+<tr> 
+<td>carol</td>
+<td>8822-1981</td>
+<td>9902-1530</td>
+</tr>
+<tr> 
+<td>maria</td>
+<td>8832-0120</td>
+<td>9993-8432</td>
+
+</tr>
+
+</table>
+
+</head>
+<table> 
+  <head>
+    <style>
+        table,th,td {
+          border: 1px solid black
+        }
+        table{
+          width: 100%;
+        
+        margin-bottom: 30px;
+        }
+    </style>
+  
+  </head>
+
+<caption><strong> valores de peças</strong></caption> 
+ <thead>
+<tr> 
+<th>mês</th>
+<th>valor</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+ 
+<td>janeiro</td>
+<td>10.000,00</td>
+</tr>
+
+<tr> 
+<td>fevereiro</td>
+<td>15.000,00</td>
+</tr>
+<!-- <tbody></tbody> foi utilizado para o conteúdo do corpo.-->
+</tbody>
+ <tfoot> 
+<tr> 
+<td>total</td>
+<td>25.000,00</td>
+
+</tr>
+<!--<tfoot></tfoot> foi utilizado para o conteúdo do rodapé.-->
+
+</tfoot>
+</table>
+
+</body>
+<body>
+  <form> 
+
+    nome:<br>
+    <input type="text">
+    <imput type="text" name="nome"><br>
+    
+      
+      sobrenome:<br>
+      <input type="text">
+      <imput type="text" name="sobrenome">
+ </form>
+ <form> 
+ <input type="radio" name="estado civil" value="casado" checked> casado<br>
+ <input type="radio" name="estado civil" value="solteiro"> solteiro <br>
+ <input type="radio" name="estado civil" value="outros"> outros
+
+
+
+ </form>
+  
+  
+</body>
+
+</html>
