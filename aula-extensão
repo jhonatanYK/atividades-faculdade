@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade1000.css">
+</head>
+<body>
+    <h1>Disciplinas do Semestre</h1>
+    <ul id="disciplinas-list"></ul>
+
+    <script>
+        let sexo = prompt("Digite 'M' se for do sexo masculino ou 'F' se for do sexo feminino:");
+
+let mensagem;
+
+switch (sexo) {
+  case "M":
+    mensagem = "Seja bem vindo!";
+    break;
+  case "F":
+    mensagem = "Seja bem vinda!";
+    break;
+}
+    window.alert(mensagem)
+    </script>
+    <script>
+  var disciplinas = [
+        "Fundamentos de Programçao para a Internet",
+        "Arquitetura e Organização de Computadores",
+        "Linguagem",
+        "Legislação Aplicada a Tecnologia da Informação",
+        "Economia",
+
+      ];
+      var disciplinasList = document.getElementById("disciplinas-list");
+
+      for (var i = 0; i < disciplinas.length; i++) {
+        var disciplina = disciplinas[i];
+
+        var listItem = document.createElement("li");
+        listItem.textContent = disciplina;
+
+        disciplinasList.appendChild(listItem);
+      }
+    </script>
+    
+    <script>
+         
+    var disciplinas = [
+        "Fundamentos de Programação", 
+        "Arquiterura e Organização de COmputadores", 
+        "Linguagem", 
+        "Legislção Aplicada a Tecnologia da Informação", 
+        "Economia"
+    ];
+
+    var index = 0;
+
+    while (index < disciplinas.length) {
+      var disciplina = disciplinas[index];
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(disciplina));
+      document.getElementById("disciplinas-list");
+      index++;
+    }
+     </script>
+
+     <script>
+        for (var i = 1; i <= 10; i++) {
+        var resultado = 8 * i;
+        window.alert("8 x " + i + " = " + resultado);
+    }
+     </script>
+
+    <script>
+        class Carro {
+    constructor(marca, modelo, ano, cor, motor) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.ano = ano;
+    this.cor = cor;
+    this.motor = motor;
+  }
+        }
+
+
+    var meuCarro = new Carro("nissan", "Skyline", 1999, "azul", "2.6");
+
+    var chaves = Object.keys(meuCarro);
+
+    for (var i = 0; i < chaves.length; i++) {
+  var caracteristica = chaves[i];
+  var valor = meuCarro[caracteristica];
+  alert(caracteristica + ": " + valor);
+    }
+    </script>
+    </body>
+</html>
