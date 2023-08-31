@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARROS</title>
+        <link rel="icon" type="png" href="https://s2.static.brasilescola.uol.com.br/be/2022/05/via-lactea.jpg">
+        <link rel="stylesheet" type="text/css" href="CSS.VIALACTEA.txt">
+        
+        <style>
+    
+    body{
+        background-image: url(https://th.bing.com/th/id/R.ac87b11f8683b209c43a30dce1933963?rik=g2kc6nEyPrA0vw&riu=http%3a%2f%2fwww.mentecoletiva.com.br%2fwp-content%2fuploads%2fTop-10-JDM-Nissan-Skyline-GTR.jpg&ehk=sIiL1t9m7HqEzP%2bDpLtnfyPGcvaUixhOFEjZWUZT4A4%3d&risl=&pid=ImgRaw&r=0);
+    }
+            
+            h1 {
+            color: rgb(240, 18, 18);
+            margin-left: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+
+<body>
+    <h1 class="center" style="color:hsla(239, 81%, 49%, 0.651); margin-left:30px;">Carros um pouco da sua história</h1>
+    
+   
+
+    <p class="center" style="color:rgb(34, 177, 177);">
+       
+        No ano de <strong>1886</strong> , o engenheiro alemão <strong>Karl benz</strong>  patenteou o primeiro carro com motor de explosão, movido a gás ou petróleo. Apesar de ter sido o primeiro produzido com fins comerciais, tinha apenas três rodas e seu sistema de locomoção era bastante lento.</p>
+<!-- (class="center") usado para centralizar as letras na tela-->
+
+<h1 class="center" style="color:hsla(239, 79%, 48%, 0.658); margin-left: 30px;">4 CURIOSIDADES SOBRE os carros</h1>
+    
+    <p class="center" style="color:rgba(221, 62, 181, 0.658);">
+
+ #1- Dirigindo sem volante
+
+    Os primeiros carros possuíam alavancas parecidas com um joy stick, em vez do tradicional volante. O Benz Patent- Motorwagen de 1886 é um exemplo desse modelo de direção.
+    
+    Foi somente em 1894 que alguém deu à luz a ideia da direção circular como conhecemos hoje. O inventor era um francês de nome Alfred Vacheron que implementou o protótipo de um volante em seu “carro-carruagem”, o Panhard et Levassor. A empresa fabricante tomou conhecimento da eficiência dessa direção e, quatro anos depois, já estava produzindo veículos com volantes.  </p>
+    
+     
+    
+    <p class="center" style="color:rgba(184, 62, 221, 0.658);"> #2- Carros pretos
+    
+    O primeiro carro movido à gasolina foi fabricado pela Ford em 1893. Uma década depois, a invenção começou a ser produzida em série, trazendo uma verdadeira revolução nos custos dos automóveis. Foram mais de 15 milhões de unidades vendidas entre 1908 e 1927, mas havia algo curioso: todos eram pretos. A explicação dada pela Ford fazia todo sentido: os pigmentos pretos eram mais baratos e secavam mais rápido, o que reduzia consideravelmente o preço final do veículo.</p>
+    
+     
+    
+    <p class="center" style="color:rgba(184, 62, 221, 0.658);"> #3- Sem visão de trás
+    
+    Atualmente é inimaginável trafegar com um carro sem retrovisores. O que poucos sabem é que esses espelhos tão indispensáveis só foram inventados em 1906 por um francês chamado Alfred Faucher. Antes disso, ninguém tinha visão da movimentação vinda de trás e era necessário “intuir” a aproximação de outros veículos contando apenas com os ouvidos.</p>
+    
+     
+    
+    <p class="center" style="color:rgba(184, 62, 221, 0.658);"> #4- Deixa o som rolar
+    
+    A maioria das pessoas adora curtir uma boa música no carro. Mas esse simples prazer só existe porque um americano, George Frost, decidiu instalar um rádio em seu Ford no ano de 1922. Ele tinha 18 anos e queria apenas rodar por aí com uma trilha sonora ao fundo. Após cinco anos da “invenção” de George, a empresa Philadelphia Storage Battery Company começou a produzir os primeiros rádios automotivos. Para quem tem hoje uma central multimídia no veículo, um rádio pode parecer algo simples demais, mas naquela época foi uma grande inovação.</p>
+    
+     
+     <!--hsla(239, 79%, 48%, 0.658) ultíma coluna é usado para controlar a opacidade da letra -->
+   
+
+<h1>Customização dos Carros</h1>
+
+<m1>a Customização dos carros, tem vários estilos diferentes, por exemplo os carros japoneses, que são um estilo mais rebaixados, mais largos por causa dos body kits colocados, e também a parte de motor que são muito fortes, para o drift, esses carros são mexidos apartir do chassis até a sua lataria.   </m1>
+<!-- (m1) é a características que dei o valor de mudar a fonte e a cor da letra -->
+
+
+
+
+    </head>
+
+
+
+
+
+
+</body>
+</html>
